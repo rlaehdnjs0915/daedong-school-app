@@ -31,6 +31,12 @@ def get_now_kst():
 
 def get_weekday_key():
     weekday = get_now_kst().weekday()
+
+    if weekday == 5:   # 토요일
+        return "Mon"
+    if weekday == 6:   # 일요일
+        return "Mon"
+
     keys = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
     return keys[weekday]
 
