@@ -11,7 +11,7 @@ app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 TIMETABLE_FILE = os.path.join(BASE_DIR, "data", "timetable.json")
 
-NEIS_API_KEY = "761f430e8ceb4346b4f9280902b31fc7"
+NEIS_API_KEY = os.environ.get("NEIS_API_KEY", "")
 ATPT_OFCDC_SC_CODE = "C10"
 SD_SCHUL_CODE = "7150127"
 NEIS_MEAL_URL = "https://open.neis.go.kr/hub/mealServiceDietInfo"
