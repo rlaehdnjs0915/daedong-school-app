@@ -1,0 +1,20 @@
+{
+  "name": "2026 대동고등학교 2학년 2반 김도원",
+  "short_name": "대동고앱",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f6fb",
+  "theme_color": "#1f3c88",
+  "icons": [
+    {
+      "src": "/static/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/static/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

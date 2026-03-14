@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 대동고등학교 2학년 2반 김도원</title>
+    <meta name="theme-color" content="#1f3c88">
+    <link rel="manifest" href="/static/manifest.json">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>2026 대동고등학교 2학년 2반 김도원</h1>
+        <p id="today-date">로딩 중...</p>
+
+        <div class="card">
+            <h2>오늘 급식</h2>
+
+            <p class="meal-title"><strong>중식</strong></p>
+            <p id="lunch">불러오는 중...</p>
+
+            <p class="meal-title"><strong>석식</strong></p>
+            <p id="dinner">불러오는 중...</p>
+        </div>
+
+        <div class="card">
+            <h2>오늘 준비물</h2>
+            <ul id="supplies-list"></ul>
+        </div>
+
+        <div class="card">
+            <h2>준비물 저장</h2>
+            <input type="date" id="supply-date">
+            <textarea id="supply-input" placeholder="준비물을 한 줄에 하나씩 입력"></textarea>
+            <button id="save-btn">추가 저장</button>
+            <button id="clear-btn">해당 날짜 준비물 지우기</button>
+            <p id="save-message"></p>
+
+            <h3>선택한 날짜 준비물</h3>
+            <ul id="supplies-list"></ul>
+            <ul id="selected-supplies-list"></ul>
+        </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
